@@ -1,0 +1,44 @@
+.error {
+  &-window {
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 20000;
+    padding: 3rem;
+    border-radius: 1rem;
+    color: $color-dark--1;
+    max-width: 60rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width: 64em) {
+      max-width: 70vw;
+    }
+  }
+
+  &--title {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    place-items: center;
+  }
+
+  &--heading {
+    font-size: 3rem;
+    grid-column: 1 / span 11;
+  }
+
+  &--message {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+
+  &--btn {
+    background: transparent;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+}
