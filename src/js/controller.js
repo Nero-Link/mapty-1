@@ -373,13 +373,13 @@ class App {
 const app = new App();
 
 //TODO only for starting add it ti class with refactored code
-const menuToggle = document.querySelector('.js-menu-toggler');
+// const menuToggle = document.querySelector('.js-menu-toggler');
 
-menuToggle.addEventListener('click', function (e) {
-  e.stopPropagation();
-  document.querySelector('.js-menu').style.display = 'block';
-});
+// menuToggle.addEventListener('click', function (e) {
+//   e.stopPropagation();
+//   document.querySelector('.js-menu').style.display = 'block';
+// });
 
-document.querySelector('.sidebar').addEventListener('click', function () {
-  document.querySelector('.js-menu').style.display = 'none';
-});
+// document.querySelector('.sidebar').addEventListener('click', function () {
+//   document.querySelector('.js-menu').style.display = 'none';
+// });
