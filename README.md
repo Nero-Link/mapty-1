@@ -17,7 +17,7 @@
 <br />
 <p align="center">
   <a href="https://mapty-by-pawanjs.netlify.app/">
-    <img src="./src/images/logo.png" alt="Logo" width="50px" height="50px">
+    <img src="./src/images/logo.png" alt="Logo" width="100px" height="100px">
   </a>
 
   <h3 align="center">Mapty</h3>
