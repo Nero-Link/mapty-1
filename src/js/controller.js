@@ -1,7 +1,11 @@
 import '../sass/main.scss';
 import icons from '../images/sprite.svg';
 
-('use strict');
+// removing preload class to make transition work
+window.addEventListener('load', () => {
+  document.body.classList.remove('preload');
+});
+
 class Workout {
   date = new Date();
   id = (Date.now() + '').slice(-10);

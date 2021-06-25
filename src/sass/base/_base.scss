@@ -11,6 +11,10 @@ html {
   box-sizing: border-box;
 }
 
+.preload * {
+  transition: none !important;
+}
+
 body {
   font-family: 'Manrope', sans-serif;
   color: $color-light--2;
