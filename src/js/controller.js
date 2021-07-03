@@ -376,7 +376,7 @@ class App {
 
 const app = new App();
 
-//TODO only for starting add it ti class with refactored code
+//TODO only for starting add it to class with refactored code
 // const menuToggle = document.querySelector('.js-menu-toggler');
 
 // menuToggle.addEventListener('click', function (e) {
